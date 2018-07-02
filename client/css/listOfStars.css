@@ -1,0 +1,21 @@
+body{
+    margin: 100px;
+    background-color:lightsalmon;
+}
+
+.header{
+    background-color: lightblue;
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.data{
+    border: black 1px solid;
+    padding: 10px;
+}

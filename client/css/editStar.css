@@ -1,0 +1,25 @@
+body{
+    background-color: lightgrey;
+    margin: 50px;
+}
+
+#container{
+    display:  flex;
+    flex-flow: column;
+    padding: 5px;
+}
+
+span{
+    display: inline-block;
+    margin: 5px;
+    width: 150px;
+}
+
+button{
+    background-color:coral;
+    height: 30px;
+    width: 90px;
+}
+input{
+    background-color: coral;
+}

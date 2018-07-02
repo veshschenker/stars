@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/editStar.css">
+<div id="container">
+    <div>
+        <span>Name:</span>
+        <input type="text" id="starName" value="{{name}}">
+    </div>
+    <div>
+        <span>Classification:</span>
+        <input type="text" id="starClassification" value="{{classification}}">
+    </div>
+    <div>
+        <span>Photo:</span>
+        <input type="text" id="starImage" value="{{image}}">
+    </div>
+    <div>
+        <button onclick="saveStar({{starid}})">Save</button>
+    </div>
+    <div>
+        <td>
+            <button onclick="clearStar({{starid}})">
+                <img src="/icons/Clear.png" alt="Clear">
+                </a>
+            </button>
+        </td>
+    </div>
+</div>
+<script src="/scripts/editStar.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
